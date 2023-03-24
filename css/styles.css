@@ -8,18 +8,29 @@
 
 .logo {
     margin-top: 30px;
-    /* border: 2px solid red;*/
+    
+}
+
+.div_logo {
+    text-align: center;
+    padding: 20px;
+}
+
+.div_texto{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(90, 180, 240); 
 }
 
 .nome_empresa {
     margin-bottom: 30px;
-    /* border: 2px solid red;*/
+    
 }
 
 .menu {
     background-color: rgb(5, 73, 119);
     height: 50px;
-   /* border: 2px solid red;*/
     text-align: center;
 }
     
@@ -53,16 +64,32 @@
 
 #mais_informacoes {
     background-color: rgb(5, 73, 119);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     margin-top: 50px;
     height: 300px;
 }
 
-.rodape{
+.texto_mais_informacoes{
+    border: 2px solid red;
+    padding: 20px; /*Dessa forma parece que "aumentamos" a DIV*/
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
-    height: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.div_botoes{
+    border: 2px solid red;
+    text-align: center;
+}
+
+.rodape{
+    padding-top: 90px; /*É dessa forma que realizamos o deslocamento do elemento dentro da DIV*/
+    height: 50px;
+    text-align: center;
+}
+
+.texto_rodape {
+    color: gray;
 }
 
 body {

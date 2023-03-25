@@ -5,26 +5,32 @@
         
         <title>Projeto 1</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/home_styles.css">
     
     </head>
 
     <body>
-        <div class="cabecalho"> <!--Logo e Nome da empresa-->
-            <img src="/imagens/logo_empresa.png" class="logo"> 
-            <h2 class="nome_empresa">Inteligência Artificial</h2>
+
+        <div class="div_cabecalho"> <!--Div Cabeçalho-->
+            <img src="/imagens/logo_empresa.png" class="cabecalho_logo"> 
+            <h2 class="cabecalho_nome_empresa">Inteligência Artificial</h2>
         </div>
-        <nav class="menu"> <!--Menu-->
-            <button class="btn">Quem Somos</button>
-            <button class="btn">Nossos Serviços</button>
-            <button class="btn">Contatos</button>
+
+        <nav >
+            <div class="div_menu"> <!--Div Menu-->
+                <button class="menu_btn">Quem Somos</button>
+                <button class="menu_btn">Nossos Serviços</button>
+                <button class="menu_btn">Contatos</button>
+            </div>   
         </nav>
+        
         <article> 
-            <div class="destaque"> <!--DIV 1-->
-                <div class="div_logo">
+            <div class="divs_centrais"> <!--DIV CENTRAL 1-->
+                <div class="divs_centrais_logo">
                     <img src="/imagens/icon_ai.png">
                 </div>
-                <div class="div_texto">
+                
+                <div class="divs_centrais_texto">
                     <p>
                         Somos especialistas em <strong style="color: white;">Inteligência Artificial (AI)</strong> <br>
                         Trabalhamos para encontrar soluções tecnologicamente inteligentes para todas as áreas empresariais.
@@ -32,46 +38,51 @@
                 </div>
             </div>
 
-            <div class="destaque"> <!--DIV 2-->
-                <div class="div_logo">
+            <div class="divs_centrais"> <!--DIV CENTRAL 2-->
+                <div class="divs_centrais_logo">
                     <img src="/imagens/icon_lab.png">
                 </div>
-                <div class="div_texto">
+                
+                <div class="divs_centrais_texto">
                     <p>
                         Os nossos laboratórios são os mais modernos da atualidade.
                     </p>
                 </div>
             </div>
             
-            <div class="destaque"> <!--DIV 3-->
-                <div class="div_logo">
+            <div class="divs_centrais"> <!--DIV CENTRAL 3-->
+                <div class="divs_centrais_logo">
                     <img src="/imagens/icon_computer.png">
                 </div>
-                <div class="div_texto">
+
+                <div class="divs_centrais_texto">
                     <p>
                         Os nossos colaboradores são os técnicos mais experientes do mercado.
                     </p>
                 </div>
             </div>
 
-            <div id="mais_informacoes"> <!--DIV 4-->
-                
+            <div id="div_mais_informacoes"> <!--DIV MAIS INFORMAÇÕES-->
                 <div class="texto_mais_informacoes">
                     <p>Obtenha mais informações na área de serviços e contacte-nos.</p>
                 </div>
                 
-                <div class="div_botoes"> <!--DIV Botões-->
+                <div> <!--DIV Botões: Talvez criar um CSS para essa div-->
                     <button class="btn_info">Ver Serviços</button>
                     <button class="btn_info">Contatos</button>
                 </div>
             </div>
         </article>
+
         <footer>
-            <div class="rodape">
+            
+            <div class="div_rodape"> <!--DIV RODAPE-->
                 <div class="texto_rodape">
                     <small>Inteligência Artificial © | Todos os direitos reservados.</small> 
                 </div>
             </div>
+
         </footer>
+    
     </body>
 </html>

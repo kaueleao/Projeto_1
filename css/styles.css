@@ -1,0 +1,48 @@
+/* --------------- Configuração base das páginas --------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+/*------------------------------------------------------------*/
+
+/* --------------- Classes de uso Geral  ---------------  */
+.textos_centralizados {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+/*------------------------------------------------------------*/
+
+/* --------------- Container: Cabeçalho  ---------------  */
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: #04233F ;
+}
+
+.container-cabecalho h3 {  /*Título da página*/  
+
+/* Isso significa que todos os h3 contidos dentro do elemento pai,
+ terão o CSS abaixo aplicado */
+ font-weight: 600;
+ font-size: 2em;
+ color: #1190FF
+}
+
+/*------------------------------------------------------------*/
+
+/* --------------- Container: MENU  ---------------  */
+.container-menu {
+    text-align: center;
+    padding: 20px;
+    color: #06345D;
+}

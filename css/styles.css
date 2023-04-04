@@ -26,16 +26,17 @@ body {
 .container-cabecalho {
     text-align: center;
     padding: 20px;
-    background-color: #04233F ;
+    background-color: #04233F;
 }
 
-.container-cabecalho h3 {  /*Título da página*/  
+.container-cabecalho h3 {
+    /*Título da página*/
 
-/* Isso significa que todos os h3 contidos dentro do elemento pai,
+    /* Isso significa que todos os h3 contidos dentro do elemento pai,
  terão o CSS abaixo aplicado */
- font-weight: 600;
- font-size: 2em;
- color: #1190FF
+    font-weight: 600;
+    font-size: 2em;
+    color: #1190FF
 }
 
 /*------------------------------------------------------------*/
@@ -67,7 +68,7 @@ body {
 
 .container-quem-somos {
     background-color: #05192A;
-    overflow: auto; 
+    overflow: auto;
 }
 
 .container-quem-somos .servicos {
@@ -118,13 +119,14 @@ body {
     margin: 10px auto;
     border-radius: 10px;
     border: none;
-   cursor: pointer;
+    cursor: pointer;
 }
 
 .mais-info-botoes button:hover {
     background-color: white;
     color: black;
 }
+
 /*------------------------------------------------------------*/
 
 /* --------------- Container: RODAPE  ---------------  */
@@ -138,7 +140,7 @@ body {
 
 /*------------------------------------------------------------*/
 
-/* --------------- Container: NOSSOS SERVIÇOS  ---------------  */
+/* --------------- Container: SERVIÇOS  ---------------  */
 
 .container-servicos {
     background-color: #05192A;
@@ -158,14 +160,52 @@ body {
     padding: 20px 0;
 }
 
-.container-servicos article { /*Formatando os Articles*/
+.container-servicos article {
+    /*Formatando os Articles*/
     width: 40%;
     margin: auto;
     float: center;
 }
 
-.container-servicos li { /*Formatando os li*/
+.container-servicos li {
+    /*Formatando os li*/
     margin-bottom: 20px;
     margin-left: 50px;
     color: white;
+}
+
+/*------------------------------------------------------------*/
+
+/* --------------- Container: CONTATOS  ---------------  */
+.container-contatos {
+    background-color: #05192A;
+    padding: 80px;
+}
+
+.container-contatos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 25%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid #105088;
+    background-color: #08253F;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container-contatos .contatos {
+    display: block;
+    /*Para alinhar na vertical*/
+    font-size: 2em;
+    text-decoration: none;
+    color: #00A2FF;
+    margin-bottom: 20px;
 }

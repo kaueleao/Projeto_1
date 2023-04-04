@@ -1,86 +1,63 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Projeto 1 - Contatos</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/contatos.css">
-    </head>
 
-    <body>
-        <div class="div_cabecalho"> <!--Div Cabeçalho-->
-            <img src="/imagens/logo_empresa.png" class="cabecalho_logo"> 
-            <h2 class="cabecalho_nome_empresa">Inteligência Artificial</h2>
-        </div>
+<head>
+    <title>Projeto 1 - Contatos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="shortcut icon" href="/imagens/logo_empresa.png" type="image/png">
+</head>
 
-        <nav >
-            <div class="div_menu"> <!--Div Menu-->
-                <a href="/index.html" style="text-decoration: none;"> <button class="menu_btn">Quem Somos</button> </a>
-                <a href="/nossos_servicos.html" style="text-decoration: none;"> <button class="menu_btn">Nossos Serviços</button> </a>
-                <a href="/contatos.html" style="text-decoration: none;"> <button class="menu_btn">Contatos</button> </a>
-            </div>   
-        </nav>
-        
-        <article>
-            <div class="div_central"> <!--DIV CENTRAL-->
-                <div class="div_central_titulo">
-                   <p>
-                        Contacte-nos
-                   </p>
-                </div>
+<body>
 
-                <div class="div_central_escala"> <!--DIV TEXTO ESCALA-->
-                    <p>
-                        Estamos disponíveis 24/7 para o esclarecer
-                    </p>
-                </div>
+    <header class="container-cabecalho"> <!-- Container: Cabeçalho -->
+        <img src="/imagens/logo_empresa.png" alt="Logo da Empresa" title="Inteligência Artificial">
+        <h3>Inteligência Artificial</h3>
+    </header>
 
-                <div class="divs_centrais"> <!--DIV CENTRAL 1-->
-                    <div class="divs_centrais_logo">
-                        <img src="/imagens/icon_phone.png">
-                    </div>
+    <nav class="container-menu"> <!-- Container: MENU -->
+        <a href="/index.html" style="text-decoration: none;"> <button>Quem Somos</button> </a>
+        <a href="/servicos.html" style="text-decoration: none;"> <button>Nossos Serviços</button> </a>
+        <a href="/contatos.html" style="text-decoration: none;"> <button>Contatos</button> </a>
+    </nav>
 
-                    <div class="divs_centrais_texto">
-                        <p>351 912 345 678</p>
-                    </div>
+    <main>
 
-                    <div class="div_central_subtexto">
-                        <small>Entre as 09:00h e as 19:00h</small>
-                    </div>
-                </div>
-                <div class="divs_centrais"> <!--DIV CENTRAL 2-->
-                    <div class="divs_centrais_logo">
-                        <img src="/imagens/icon_email.png">
-                    </div>
+        <section class="container-contatos"> <!-- Container: Contatos -->
 
-                    <div class="divs_centrais_texto">
-                        <p>inteligencia.artificial@ai.com</p>
-                    </div>
+            <h1 class="textos-centralizados">Contacte-nos</h1>
+            <h3 class="textos-centralizados">Estamos disponíveis 24/7</h3>
 
-                    <div class="div_central_subtexto">
-                        <small>Respondemos a todos os emails no prazo de 12 horas</small>
-                    </div>
-                </div> 
+            <article class="textos-centralizados">
+                <img src="/imagens/icon_phone.png" alt="Telefone">
+                <p class="contatos">351 912 345 678</p>
+                <small>Entre as 09:00h e as 19:00h</small>
+            </article>
+
+            <article class="textos-centralizados margin-top-40">
+                <img src="/imagens/icon_email.png" alt="Email">
+                <p class="contatos">inteligencia.artificial@ai.com</p>
+                <small>Respondemos a todos os email no prazo de 12 horas.</small>
+            </article>
+
+        </section>
+
+        <section class="container-mais-informacoes"> <!-- Container: Mais Informações -->
+            <h1> Conheça os nossos serviços</h1>
+            <div class="mais-info-botoes">
+                <a href="/servicos.html" style="text-decoration: none;"> <button>Serviços</button> </a>
             </div>
-            <div id="div_mais_informacoes"> <!--DIV MAIS INFORMAÇÕES-->
-                <div class="texto_mais_informacoes">
-                    <p>Conheça os nossos serviços.</p>
-                </div>
-                
-                <div> <!--DIV Botões: Talvez criar um CSS para essa div para tratar o style-->
-                    <a href="/nossos_servicos.html" style="text-decoration: none;"> <button class="btn_info">Os nossos serviços</button> </a>
-                </div>
-            </div>
-        </article>
 
-        <footer>
-            
-            <div class="div_rodape"> <!--DIV RODAPE-->
-                <div class="texto_rodape">
-                    <small>Inteligência Artificial © | Todos os direitos reservados.</small> 
-                </div>
-            </div>
+        </section>
+
+        <footer class="rodape"> <!-- Container: Rodapé-->
+
+            <small>Inteligência Artificial © | Todos os direitos reservados.</small>
 
         </footer>
-    </body>
+
+    </main>
+</body>
+
 </html>

@@ -44,5 +44,94 @@ body {
 .container-menu {
     text-align: center;
     padding: 20px;
-    color: #06345D;
+    background-color: #06345D;
+}
+
+.container-menu button {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    background-color: #06345D;
+    color: #7CC2FF;
+    border: none;
+    cursor: pointer;
+}
+
+.container-menu button:hover {
+    color: white;
+}
+
+/*------------------------------------------------------------*/
+
+/* --------------- Container: QUEM SOMOS  ---------------  */
+
+.container-quem-somos {
+    background-color: #05192A;
+    overflow: auto; 
+}
+
+.container-quem-somos .servicos {
+    float: center;
+    margin: 60px auto;
+    background-color: #061F35;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-quem-somos .servicos .icone {
+    margin-bottom: 10px;
+}
+
+.container-quem-somos .servicos-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #81C4FF;
+}
+
+
+/*------------------------------------------------------------*/
+
+/* --------------- Container: MAIS INFORMAÇÕES  ---------------  */
+
+.container-mais-informacoes {
+    background-color: #082946;
+    padding: 80px;
+    text-align: center;
+}
+
+.container-mais-informacoes .mais-info-botoes {
+    padding: 60px;
+    text-align: center;
+}
+
+.mais-info-botoes button {
+    display: block;
+    width: 300px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: #008EB9;
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: none;
+   cursor: pointer;
+}
+
+.mais-info-botoes button:hover {
+    background-color: white;
+    color: black;
+}
+/*------------------------------------------------------------*/
+
+/* --------------- Container: RODAPE  ---------------  */
+
+.rodape {
+    text-align: center;
+    padding: 80px;
+    background-color: #02111F;
+    color: gray;
 }

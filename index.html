@@ -1,88 +1,69 @@
 <!DOCTYPE html>
-
 <html>
+
     <head>
-        
         <title>Projeto 1 - Home Page</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/home_styles.css">
-    
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css">
+        <link rel="shortcut icon" href="/imagens/logo_empresa.png" type="image/png">
     </head>
 
     <body>
-
-        <div class="div_cabecalho"> <!--Div Cabeçalho-->
-            <img src="/imagens/logo_empresa.png" class="cabecalho_logo"> 
-            <h2 class="cabecalho_nome_empresa">Inteligência Artificial</h2>
-        </div>
-
-        <nav >
-            <div class="div_menu"> <!--Div Menu-->
-                <a href="/index.html" style="text-decoration: none;"> <button class="menu_btn">Quem Somos</button> </a>
-                <a href="/nossos_servicos.html" style="text-decoration: none;"> <button class="menu_btn">Nossos Serviços</button> </a>
-                <a href="/contatos.html" style="text-decoration: none;"> <button class="menu_btn">Contatos</button> </a>
-            </div>   
-        </nav>
         
-        <article> 
-            <div class="divs_centrais"> <!--DIV CENTRAL 1-->
-                <div class="divs_centrais_logo">
-                    <img src="/imagens/icon_ai.png">
-                </div>
-                
-                <div class="divs_centrais_texto">
-                    <p>
+        <header class="container-cabecalho"> <!-- Container: Cabeçalho -->
+            <img src="/imagens/logo_empresa.png" alt="Logo da Empresa" title="Inteligência Artificial"> 
+            <h3>Inteligência Artificial</h3>
+        </header>
+
+        <nav class="container-menu"> <!-- Container: MENU -->
+                <a href="/index.html" style="text-decoration: none;"> <button>Quem Somos</button> </a>
+                <a href="/nossos_servicos.html" style="text-decoration: none;"> <button>Nossos Serviços</button> </a>
+                <a href="/contatos.html" style="text-decoration: none;"> <button>Contatos</button> </a>
+        </nav>
+
+        <main>
+
+            <section class="container-quem-somos"> <!-- Container: Quem Somos -->
+                <article class="servicos"> 
+                    <img src="/imagens/icon_ai.png" alt="Icone" title="Inteligência Artificial" class="icone">
+                    <p class="servicos-texto">
                         Somos especialistas em <strong style="color: white;">Inteligência Artificial (AI)</strong> <br>
                         Trabalhamos para encontrar soluções tecnologicamente inteligentes para todas as áreas empresariais.
                     </p>
-                </div>
-            </div>
+                </article>
 
-            <div class="divs_centrais"> <!--DIV CENTRAL 2-->
-                <div class="divs_centrais_logo">
-                    <img src="/imagens/icon_lab.png">
-                </div>
-                
-                <div class="divs_centrais_texto">
-                    <p>
+                <article class="servicos">
+                    <img src="/imagens/icon_lab.png" alt="Icone" title="Laboratório" class="icone">
+                    <p class="servicos-texto">
                         Os nossos laboratórios são os mais modernos da atualidade.
                     </p>
-                </div>
-            </div>
-            
-            <div class="divs_centrais"> <!--DIV CENTRAL 3-->
-                <div class="divs_centrais_logo">
-                    <img src="/imagens/icon_computer.png">
-                </div>
+                </article>
 
-                <div class="divs_centrais_texto">
-                    <p>
+                <article class="servicos">
+                    <img src="/imagens/icon_computer.png" alt="Icone" title="Computador" class="icone">
+                    <p class="servicos-texto">
                         Os nossos colaboradores são os técnicos mais experientes do mercado.
                     </p>
-                </div>
-            </div>
+                </article>
 
-            <div id="div_mais_informacoes"> <!--DIV MAIS INFORMAÇÕES-->
-                <div class="texto_mais_informacoes">
-                    <p>Obtenha mais informações na área de serviços e contacte-nos.</p>
-                </div>
-                
-                <div> <!--DIV Botões: Talvez criar um CSS para essa div para tratar o style-->
-                    <a href="/nossos_servicos.html" style="text-decoration: none;"> <button class="btn_info">Ver Serviços</button> </a>
-                    <a href="/contatos.html" style="text-decoration: none;"> <button class="btn_info">Contatos</button> </a>
-                </div>
-            </div>
-        </article>
+            </section>
 
-        <footer>
+            <section class="container-mais-informacoes"> <!-- Container: Mais Informações -->
+                    <h1> Obtenha mais informações na área de serviços e contacte-nos.</h1>
+                    <div class="mais-info-botoes">
+                        <a href="/nossos_servicos.html" style="text-decoration: none;"> <button>Ver Serviços</button> </a>
+                        <a href="/contatos.html" style="text-decoration: none;"> <button>Contatos</button> </a>
+                    </div>
+
+            </section>
+
+            <footer class="rodape"> <!-- Container: Rodapé-->
+
+                <small>Inteligência Artificial © | Todos os direitos reservados.</small> 
             
-            <div class="div_rodape"> <!--DIV RODAPE-->
-                <div class="texto_rodape">
-                    <small>Inteligência Artificial © | Todos os direitos reservados.</small> 
-                </div>
-            </div>
+            </footer>
 
-        </footer>
-    
+        </main>
     </body>
 </html>
